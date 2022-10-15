@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App .loginForm{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  background-color: aqua;
+}
+
+.signUp{
+
+  margin-top : 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  background-color: blueviolet;
+}
+
+
+
+.todoTable{
+  width: 900px;
+  border: 1px solid #000;  
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;
+  }
+
+
+
+.todoTable td{
+  width: 100px;
+  border: 1px solid;
+  text-align : center;
+}
