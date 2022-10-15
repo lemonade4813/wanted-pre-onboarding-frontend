@@ -38,7 +38,9 @@ App.js 파일내 {  !localStorage.getItem('token') ? <Navigate to ="/" /> : <Nav
 
 이메일과 패스워드를 입력하면 유효성이 체크되며 유효값 입력시 signin 버튼이 활성화된다. 
 
-![저장1](https://user-images.githubusercontent.com/103189961/195993707-8d364ba7-2fb3-4563-bc7c-a54e959cff98.JPG)
+signin 버튼을 누르면 signIn API가 호출되고 localstorage에 token값이 저장되도록 한다.
+
+![image](https://user-images.githubusercontent.com/103189961/195994196-b947c2b3-9d4c-4e44-b7e1-69148696f903.png)
 
 ### 3) createTodo
 
