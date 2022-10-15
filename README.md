@@ -14,9 +14,9 @@ App.js 파일내 {  !localStorage.getItem('token') ? <Navigate to ="/" /> : <Nav
 
 
 
-## 1. 프로젝트 실행 방법
+## 1. Auth
 
-### 1)signUp
+### 1-1)signUp
 
 ![image](https://user-images.githubusercontent.com/103189961/195994049-9b37e102-cd87-42ff-88c4-fff518ef8868.png)
 
@@ -42,9 +42,14 @@ signin 버튼을 누르면 signIn API가 호출되고 localstorage에 token값�
 
 ![image](https://user-images.githubusercontent.com/103189961/195994196-b947c2b3-9d4c-4e44-b7e1-69148696f903.png)
 
-### 3) createTodo
+## 2.Todo
 
+### 2-1) createTodo
 
-![1234qwer](https://user-images.githubusercontent.com/103189961/195993823-f0a6adf8-310b-462c-80c2-696c530636ce.JPG)
+할입 입력란에 text를 입력하고 추가 버튼을 누르면 createTodo API가 호출된다
+
+![image](https://user-images.githubusercontent.com/103189961/195994369-eb9d210c-0148-408e-811d-cc5c1eddb42a.png)
+![success createTodo](https://user-images.githubusercontent.com/103189961/195994424-9da03814-e48b-4e6e-8b0a-29135b21adbb.JPG)
+
 
 
