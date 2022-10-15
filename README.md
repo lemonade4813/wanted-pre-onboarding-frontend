@@ -48,7 +48,7 @@ signin 버튼을 누르면 signIn API가 호출되고 localstorage에 token값�
 
 할입 입력란에 text를 입력하고 추가 버튼을 누르면 createTodo API가 호출된다
 
-![image](https://user-images.githubusercontent.com/103189961/195994369-eb9d210c-0148-408e-811d-cc5c1eddb42a.png)
+![image](https://user-images.githubusercontent.com/103189961/195994538-8ac2b7b7-0d9b-4534-af1d-bd4e1c944638.png)
 ![success createTodo](https://user-images.githubusercontent.com/103189961/195994424-9da03814-e48b-4e6e-8b0a-29135b21adbb.JPG)
 
 
