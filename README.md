@@ -34,5 +34,8 @@ App.js 파일내 {  !localStorage.getItem('token') ? <Navigate to ="/" /> : <Nav
 <이메일 중복시>
 ![signup fail](https://user-images.githubusercontent.com/103189961/195993581-76b97c6c-abda-4a95-813c-652f41f4e99e.JPG)
 
+2) signIn
+
+![저장1](https://user-images.githubusercontent.com/103189961/195993707-8d364ba7-2fb3-4563-bc7c-a54e959cff98.JPG)
 
 
