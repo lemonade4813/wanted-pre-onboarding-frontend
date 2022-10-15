@@ -26,7 +26,7 @@ App.js 파일내 {  !localStorage.getItem('token') ? <Navigate to ="/" /> : <Nav
 
 이메일과 패스워드를 입력하면 유효성이 체크되고 유효값 입력시 회원가입 버튼이 활성화된다.
 
-버튼을 누르면 입력된 정보로 API를 호출한다.
+가입하기 버튼을 누르면 입력된 정보로 API를 호출한다.
 
 <성공시>
 ![success signup](https://user-images.githubusercontent.com/103189961/195993571-62582859-22b7-41a7-934b-0e5800daed7a.JPG)
