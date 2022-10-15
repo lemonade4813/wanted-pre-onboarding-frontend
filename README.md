@@ -20,11 +20,11 @@ App.js 파일내 {  !localStorage.getItem('token') ? <Navigate to ="/" /> : <Nav
 
 ![image](https://user-images.githubusercontent.com/103189961/195994049-9b37e102-cd87-42ff-88c4-fff518ef8868.png)
 
-로그인 폼 하단의 signin 클릭하면 signup 폼을 열고 닫을 수 있다.
+(1)로그인 폼 하단의 signin 클릭하면 signup 폼을 열고 닫을 수 있다.
 
-![image](https://user-images.githubusercontent.com/103189961/195993505-4fdb3aff-046a-42e6-8b94-64f3d8b78f43.png)
+![image](https://user-images.githubusercontent.com/103189961/195994122-af720260-aeb9-4360-8d60-589ce1b73f2d.png)
 
-이메일과 패스워드를 입력하면 유효성이 체크되고 유효값 입력시 회원가입 버튼이 활성화된다.
+(2)이메일과 패스워드를 입력하면 유효성이 체크되고 유효값 입력시 회원가입 버튼이 활성화된다.
 
 가입하기 버튼을 누르면 입력된 정보로 API를 호출한다.
 
