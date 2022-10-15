@@ -28,7 +28,11 @@ App.js 파일내 {  !localStorage.getItem('token') ? <Navigate to ="/" /> : <Nav
 
 버튼을 누르면 입력된 정보로 API를 호출한다.
 
-![signup fail](https://user-images.githubusercontent.com/103189961/195993581-76b97c6c-abda-4a95-813c-652f41f4e99e.JPG)
+<성공시>
 ![success signup](https://user-images.githubusercontent.com/103189961/195993571-62582859-22b7-41a7-934b-0e5800daed7a.JPG)
+
+<이메일 중복시>
+![signup fail](https://user-images.githubusercontent.com/103189961/195993581-76b97c6c-abda-4a95-813c-652f41f4e99e.JPG)
+
 
 
