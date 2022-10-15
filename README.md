@@ -16,8 +16,19 @@ App.js 파일내 {  !localStorage.getItem('token') ? <Navigate to ="/" /> : <Nav
 
 ## 1. 프로젝트 실행 방법
 
-1)
+1)signUp
 
+![image](https://user-images.githubusercontent.com/103189961/195993472-2fec9028-f9d9-45a0-b39e-402934b27bb9.png)
 
+로그인 폼 하단의 signin 클릭하면 signup 폼을 열고 닫을 수 있다.
+
+![image](https://user-images.githubusercontent.com/103189961/195993505-4fdb3aff-046a-42e6-8b94-64f3d8b78f43.png)
+
+이메일과 패스워드를 입력하면 유효성이 체크되고 유효값 입력시 회원가입 버튼이 활성화된다.
+
+버튼을 누르면 입력된 정보로 API를 호출한다.
+
+![signup fail](https://user-images.githubusercontent.com/103189961/195993581-76b97c6c-abda-4a95-813c-652f41f4e99e.JPG)
+![success signup](https://user-images.githubusercontent.com/103189961/195993571-62582859-22b7-41a7-934b-0e5800daed7a.JPG)
 
 
