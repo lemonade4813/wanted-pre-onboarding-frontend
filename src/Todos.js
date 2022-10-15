@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import axios from 'axios'
-import { isDisabled } from '@testing-library/user-event/dist/utils'
+
 
 export default function Todos(){
     
@@ -46,8 +46,9 @@ export default function Todos(){
                             },
                    })
                    .then((res) => {
-                       localStorage.setItem('token', res.data.access_token)
-                   });  
+                        localStorage.setItem('token', res.data.access_token)
+                        console.log("success createTodo")
+                    });  
         }     
     
         // Todo 리스트 가져오기
@@ -62,7 +63,8 @@ export default function Todos(){
                     })
                 .then((res) => {
                            setGetDatas(res.data)
-                           console.log(datas) 
+                           console.log(datas)
+                           console.log("success getTodo") 
                     })
                 .catch((error)=>{
                             console.log(error.response)

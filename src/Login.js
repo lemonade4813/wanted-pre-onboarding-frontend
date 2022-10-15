@@ -82,6 +82,7 @@ function Login() {
             })
             .then((res) => {
             localStorage.setItem('token', res.data.access_token) 
+            console.log("success signin!")
             }) 
             .catch((error)=>{
                 console.log(error.response)
@@ -101,6 +102,7 @@ function Login() {
                       value={email}
                       onChange={emailCheck}
                       placeholder="test@email.com"
+                      style ={{height : "20px", marginBottom : "20px"}}
                     />
                 <label htmlFor="password">password</label>
                     <input
@@ -110,10 +112,11 @@ function Login() {
                       value={password}
                       onChange={passwordCheck}
                       placeholder="****************"
+                      style ={{height : "20px", marginBottom : "20px"}}
                     />
-                 <button onClick={callSignIn} disabled={(emailValidState && passwordValidState)? false : true}>login</button>
+                 <button onClick={callSignIn} disabled={(emailValidState && passwordValidState)? false : true} style ={{width : "100px", height : "30px"}}>login</button>
               </form>
-            <button onClick={controllSignUp}>signup</button><br/><br/>
+            <button onClick={controllSignUp} style ={{width : "100px", height : "30px"}}>signup</button><br/><br/>
             {signUpState && <SignUpComponent/>}
         </div>
     </div>

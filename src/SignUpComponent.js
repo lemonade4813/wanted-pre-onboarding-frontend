@@ -64,15 +64,17 @@ export default function SignUpComponent(){
                      },
             })
             .then((res) => {
-                console.log(res.data.access_token)
-            })
+                console.log(`signup success!, token : ${res.data.access_token}`)
+              })
             .catch((error) =>{
-                console.log(error.response)
+                console.log(error.response.data.message)
             });  
             }   
     return(
         <div>
+            {/*회원가입 양식 */}
             <form className = "signUp">
+            <p style ={{color:"#fff" , fontSize:"30px"}}>회원가입</p>
                 <label htmlFor="email">email</label>
                     <input
                       id="email"
@@ -81,6 +83,7 @@ export default function SignUpComponent(){
                       value={email}
                       onChange={emailCheck}
                       placeholder="test@email.com"
+                      style ={{height : "20px", marginBottom : "20px"}}
                     />
                 <label htmlFor="password">password</label>
                     <input
@@ -90,8 +93,9 @@ export default function SignUpComponent(){
                       value={password}
                       onChange={passwordCheck}
                       placeholder="****************"
+                      style ={{height : "20px", marginBottom : "20px"}}
                     />
-                <button onClick={createSignUp}  disabled={(emailValidState && passwordValidState)? false : true}>가입하기</button>
+                <button onClick={createSignUp}  disabled={(emailValidState && passwordValidState)? false : true} style ={{width : "100px", height : "30px"}}>가입하기</button>
               </form>   
         </div>
     )
