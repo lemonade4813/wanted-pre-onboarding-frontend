@@ -1,12 +1,16 @@
 import {useState} from 'react'
 import axios from 'axios'
+import { isDisabled } from '@testing-library/user-event/dist/utils'
 
 export default function Todos(){
     
-    if(localStorage.getItem('token') === undefined){
+    if(localStorage.getItem('token') === "undefined"){
         localStorage.removeItem('token')
     }
-    
+
+     //Todo 공통 url (createTodo/getTodo/updateTodo/deleteTodo)
+     let url = "https://pre-onboarding-selection-task.shop/todos"  
+  
     // 할일 입력 input 창에 입력한 값 가져오기
     const [todo, setTodo] = useState("")
     
@@ -23,7 +27,7 @@ export default function Todos(){
     console.log(token)
     
     //Todo 공통 url (createTodo/getTodo/updateTodo/deleteTodo)
-    let url = "https://pre-onboarding-selection-task.shop/todos"  
+   // let url = "https://pre-onboarding-selection-task.shop/todos"  
 
 
     //Todo 입력
@@ -105,14 +109,23 @@ export default function Todos(){
                 });  
     }  
 
-    console.log(todo)
+    const tdClick =(e) => {
+        console.log(e.target)
+    }
 
     return(
-    
         <div className ="todoList">
             <h1>TodoList</h1>
-            <div>
-                <button onClick={getTodo}>조회하기</button>
+            
+            <div class="headerTodoList">
+                <div class="getTodo">
+                    <button onClick={getTodo}>조회하기</button>
+                </div>
+                <div class="inputTodo">
+                    <p>할일 입력</p>
+                    <input onChange={listenTodo} type="text" placeholder='input Todo'/>
+                    <button onClick={createTodo}>추가</button>
+                </div>
             </div>
             <div id ="todotable" className = "todoTable">
                 <table> 
@@ -130,12 +143,12 @@ export default function Todos(){
                     </thead>
                     <tbody>
                     {datas.map((data) => (
-                        <tr key={data.id}>
+                        <tr onClick = {tdClick} key={data.id}>
                             <td>{data.id}</td>
                             <td>{data.todo}</td>
                             <td>완료</td>
                             <td><button style={{width:"100%"}} onClick={updateTodo(data.id)}>수정하기</button></td>
-                            <td><input type="text" style={{width : "100px"}} ></input></td> {/*수정 내용입력부분*/}
+                            <td><input type="text" style={{width : "100px"}} disabled ="true"/></td> {/*수정 내용입력부분*/}
                             <td><button style={{width:"100%"}}>전송하기</button></td>
                             <td><button style={{width:"100%"}}>취소하기</button></td>
                             <td><button style={{width:"100%"}} onClick={deleteTodo(data.id)}>삭제하기</button></td>
@@ -143,11 +156,6 @@ export default function Todos(){
                     ))}
                     </tbody>
                 </table>
-            </div>
-            <div>
-                <p>할일 입력</p>
-                <input onChange={listenTodo} type="text" placeholder='input Todo'/>
-                <button onClick={createTodo}>추가</button>
             </div>
             
         </div>

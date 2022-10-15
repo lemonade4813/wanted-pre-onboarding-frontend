@@ -34,6 +34,22 @@ code {
 }
 
 
+.headerTodoList{
+  width: 500px;
+  margin-bottom: 50px;
+  border:1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.headerTodoList .getTodo button{
+  margin-top : 30px;
+}
+
+.headerTodoList div{
+  margin-right: 40px;
+}
 
 .todoTable{
   width: 900px;
@@ -43,8 +59,6 @@ code {
  
   justify-content: center;
   }
-
-
 
 .todoTable td{
   width: 100px;

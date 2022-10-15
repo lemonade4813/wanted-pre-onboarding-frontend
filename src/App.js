@@ -3,10 +3,9 @@ import {BrowserRouter as Router, Route,Routes, Navigate} from 'react-router-dom'
 import Todos from './Todos';
 import Login from './Login';
 
-
 function App() {
 
-  if(localStorage.getItem('token') === undefined){
+  if(localStorage.getItem('token') === "undefined"){
     localStorage.removeItem('token')
 }
 
