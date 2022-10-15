@@ -2,7 +2,7 @@
 
 0.특이사항
 
-![image](https://user-images.githubusercontent.com/103189961/195991936-19027a97-1d3d-4007-813a-edc8199dc8e1.png)
+![image](https://user-images.githubusercontent.com/103189961/195993322-f0b55c0f-8c09-4324-a476-65836af77d93.png)
 
 : 실행시 Maximum Update update depth Excceed 관련 Warning 발생(useEffect), 프로젝트 내에서는 Login.js / SignUpComponent.js 파일에 useCallback 함수는 사용하였으나
 useEffect 함수는 사용하지 않음. 
