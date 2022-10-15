@@ -18,7 +18,7 @@ App.js 파일내 {  !localStorage.getItem('token') ? <Navigate to ="/" /> : <Nav
 
 ### 1)signUp
 
-![image](https://user-images.githubusercontent.com/103189961/195993472-2fec9028-f9d9-45a0-b39e-402934b27bb9.png)
+![image](https://user-images.githubusercontent.com/103189961/195993935-ecd5eb3c-b37e-4147-a476-3da868f0092c.png)
 
 로그인 폼 하단의 signin 클릭하면 signup 폼을 열고 닫을 수 있다.
 
