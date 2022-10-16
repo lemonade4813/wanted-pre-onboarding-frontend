@@ -54,4 +54,4 @@ https://lemonade4813.github.io/wanted-pre-onboarding-frontend/
 
 ### * Assignment5
 
-#### useRef()으로 클릭이벤트가 발생시 DOM의 정보를 활용하는 방법을 찾아보았으나 과제를 해결하지 못했습니다.(Todos.js 파일내 수정/삭제 API는 코드는 작성)
+#### useRef()으로 클릭이벤트가 발생시 DOM의 정보를 활용하는 방법을 찾아보았으나 과제를 해결하지 못했습니다.(Todos.js 파일내 수정/삭제 API  코드는 작성)
