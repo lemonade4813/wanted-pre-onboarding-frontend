@@ -52,6 +52,10 @@ https://lemonade4813.github.io/wanted-pre-onboarding-frontend/
 ![image](https://user-images.githubusercontent.com/103189961/195994538-8ac2b7b7-0d9b-4534-af1d-bd4e1c944638.png)
 ![success createTodo](https://user-images.githubusercontent.com/103189961/195994424-9da03814-e48b-4e6e-8b0a-29135b21adbb.JPG)
 
+좌측에 조회하기 버튼을 클릭하면 getTodo API가 호출되고 Todo 리스트가 조회된다.
+
+![image](https://user-images.githubusercontent.com/103189961/196041844-d84dd224-4963-4d55-b587-6a005c863adc.png)
+
 
 ### * Assignment5
 
