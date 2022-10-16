@@ -1,6 +1,6 @@
 # 2022년 10월 Wanted Frontend 프리온보딩 코스 사전과제(2022/10/16 최종수정)
 
-
+배포 링크 : https://github.com/lemonade4813/wanted-pre-onboarding-frontend
 ## 1. Auth
 
 ### Assignment1/ Assignment2/Assignment3
