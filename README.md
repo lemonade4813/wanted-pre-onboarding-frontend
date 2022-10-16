@@ -1,9 +1,12 @@
 # 2022년 10월 Wanted Frontend 프리온보딩 코스 사전과제(2022/10/16 최종수정)
 
 배포 링크 : https://github.com/lemonade4813/wanted-pre-onboarding-frontend
+
+최상위 파일 : App.js / 로그인 컴포넌트 : Login.js / 회원가입 컴포넌트 : SignUpComponent.js / Todo 컴포넌트 : Todos.js(src 폴더에 위치)
+
 ## 1. Auth
 
-### Assignment1/ Assignment2/Assignment3
+### * Assignment1/ Assignment2/Assignment3
 
 (1)로그인 폼 하단의 signin 클릭하면 signup 폼을 열고 닫을 수 있다.
 
@@ -41,7 +44,7 @@ https://lemonade4813.github.io/wanted-pre-onboarding-frontend/
 
 ## 2.Todo
 
-### Assignment4 
+### * Assignment4 
 
 할입 입력란에 text를 입력하고 추가 버튼을 누르면 createTodo API가 호출된다
 
@@ -49,6 +52,6 @@ https://lemonade4813.github.io/wanted-pre-onboarding-frontend/
 ![success createTodo](https://user-images.githubusercontent.com/103189961/195994424-9da03814-e48b-4e6e-8b0a-29135b21adbb.JPG)
 
 
-### Assignment5
+### * Assignment5
 
-### 해결하지 못했습니다.
+### useRef()으로 클릭이벤트가 발생시 DOM의 정보를 활용하는 방법을 찾아보았으나 과제를 해결하지 못했습니다.(Todos.js 파일내 수정/삭제 API는 코드는 작성)
