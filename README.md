@@ -8,13 +8,13 @@
 
 ### * Assignment1/ Assignment2/Assignment3
 
-(1)로그인 폼 하단의 signin 클릭하면 signup 폼을 열고 닫을 수 있다.
+#### (1)로그인 폼 하단의 signin 클릭하면 signup 폼을 열고 닫을 수 있다.
 
 ![image](https://user-images.githubusercontent.com/103189961/195994049-9b37e102-cd87-42ff-88c4-fff518ef8868.png)
 
 ![image](https://user-images.githubusercontent.com/103189961/196024459-0482f1e5-8730-416a-ad66-fbcefd978a6c.png)
 
-(2)이메일과 패스워드를 입력하면 유효성이 체크되고 유효값 입력시 회원가입 버튼이 활성화된다.
+#### (2)이메일과 패스워드를 입력하면 유효성이 체크되고 유효값 입력시 회원가입 버튼이 활성화된다.
 
 가입하기 버튼을 누르면 입력된 정보로 API를 호출한다.
 
@@ -27,9 +27,9 @@
 ![signup fail](https://user-images.githubusercontent.com/103189961/195993581-76b97c6c-abda-4a95-813c-652f41f4e99e.JPG)
 
 
-(3) 이메일과 패스워드를 입력하면 유효성이 체크되며 유효값 입력시 signin 버튼이 활성화된다. 
+#### (3) 이메일과 패스워드를 입력하면 유효성이 체크되며 유효값 입력시 signin 버튼이 활성화된다. 
 
-### 이메일 : test@mail.com / 패스워드 : 1234qwer!
+##### 이메일 : test@mail.com / 패스워드 : 1234qwer!
 signin 버튼을 누르면 signIn API가 호출되고 localstorage에 token값이 저장되도록 한다.
 
 <span style="color:red">현재 로그인후 자동으로 /todo로 라우팅이 되지 않는 문제 발생 login 버튼 클릭후 주소창에 아래 주소로 다시 입력해야 합니다. </span><br/>
@@ -39,7 +39,7 @@ signin 버튼을 누르면 signIn API가 호출되고 localstorage에 token값�
 
 ![image](https://user-images.githubusercontent.com/103189961/196025005-df9cf879-2e19-4655-a5f4-64b7731cd4a1.png)
 
-(4) 로컬스토리지에 토큰 존재할경우 /todo 페이지로 이동, 토큰없을시 / 페이지로 이동<br/>
+#### (4) 로컬스토리지에 토큰 존재할경우 /todo 페이지로 이동, 토큰없을시 / 페이지로 이동<br/>
 https://lemonade4813.github.io/wanted-pre-onboarding-frontend/
 ![image](https://user-images.githubusercontent.com/103189961/196025201-072f2a78-685c-4dbb-b0b5-53c594936bf0.png)
 
