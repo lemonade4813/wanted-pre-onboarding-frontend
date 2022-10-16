@@ -29,6 +29,7 @@
 
 (3) 이메일과 패스워드를 입력하면 유효성이 체크되며 유효값 입력시 signin 버튼이 활성화된다. 
 
+### 이메일 : test@mail.com / 패스워드 : 1234qwer!
 signin 버튼을 누르면 signIn API가 호출되고 localstorage에 token값이 저장되도록 한다.
 
 <span style="color:red">현재 로그인후 자동으로 /todo로 라우팅이 되지 않는 문제 발생 login 버튼 클릭후 주소창에 아래 주소로 다시 입력해야 합니다. </span><br/>
