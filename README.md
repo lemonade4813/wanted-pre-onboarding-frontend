@@ -1,6 +1,6 @@
 # 2022년 10월 Wanted Frontend 프리온보딩 코스 사전과제(2022/10/16 최종수정)
 
-배포 링크 : https://github.com/lemonade4813/wanted-pre-onboarding-frontend
+배포 링크 : https://lemonade4813.github.io/wanted-pre-onboarding-frontend/
 
 최상위 파일 : App.js / 로그인 컴포넌트 : Login.js / 회원가입 컴포넌트 : SignUpComponent.js / Todo 컴포넌트 : Todos.js(src 폴더에 위치)
 
