@@ -1,4 +1,4 @@
-# 2022년 10월 Wanted Frontend 프리온보딩 코스 사전과제(2022/10/16 최종수정)
+# 2022년 10월 Wanted Frontend 프리온보딩 코스 과제(2022/10/16 최종수정)
 
 배포 링크 : https://lemonade4813.github.io/wanted-pre-onboarding-frontend/
 
